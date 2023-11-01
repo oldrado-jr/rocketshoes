@@ -22,3 +22,35 @@ body * {
   font-family: 'Roboto', sans-serif;
   color: var(--text);
 }
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  margin: 39px 60px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px 80px;
+}
+
+.category-links {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.search-input {
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 12px 0 12px 42px;
+  background: #ffffff url(./assets/icon-search.svg) no-repeat 13px 50%/24px;
+  width: 220px;
+}
