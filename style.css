@@ -27,12 +27,15 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 .navbar {
   margin: 39px 60px;
 }
 
 .navbar ul {
-  list-style: none;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -53,4 +56,32 @@ a {
   padding: 12px 0 12px 42px;
   background: #ffffff url(./assets/icon-search.svg) no-repeat 13px 50%/24px;
   width: 220px;
+}
+
+footer {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.explore-more {
+  background: var(--footer);
+  font-size: 24px;
+  padding: 71px 116px 67px;
+}
+
+.explore-more a {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
 }
