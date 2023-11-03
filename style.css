@@ -33,6 +33,7 @@ ul {
 
 .navbar {
   margin: 39px 60px;
+  position: absolute;
 }
 
 .navbar ul {
@@ -56,6 +57,73 @@ ul {
   padding: 12px 0 12px 42px;
   background: #ffffff url(./assets/icon-search.svg) no-repeat 13px 50%/24px;
   width: 220px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  font-weight: 700;
+  padding: 103px 72px 0 111px;
+  width: 37.5%;
+}
+
+.product-name {
+  font-size: 60px;
+}
+
+.product-description {
+  color: var(--text-description);
+}
+
+.product-price {
+  font-size: 40px;
+}
+
+.buy-button {
+  background: var(--button);
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 33px 77px;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.gallery-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  background: var(--main-background);
+  padding: 174px 18px 40px;
+  width: 62.5%;
+}
+
+.zoom-in-picture {
+  width: 67%;
+}
+
+.gallery-pictures {
+  display: flex;
+  gap: 37px;
+  width: 100%;
+}
+
+.gallery-pictures img {
+  width: 30%;
+}
+
+.selected-picture {
+  border-bottom: 5px solid var(--button);
 }
 
 footer {
